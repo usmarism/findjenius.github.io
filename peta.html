@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-type" name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+    <title>Pencarian booth Jenius Se-Jabodetabek</title>
+
+	<link rel="stylesheet" href="jquery.mobile-1.3.2/jquery.mobile-1.3.2.min.css" />
+	<link rel="stylesheet" href="index.css" /> 
+
+	<script src="jquery.mobile-1.3.2/jquery-1.7.2.min"></script>
+	<script src="jquery.mobile-1.3.2/jquery.mobile-1.3.2.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="cordova-1.9.0.js"></script>
+	<script type="text/javascript" charset="utf-8" src="index.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/map.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?v=3&sensor=false&language=id"></script>
+  
+  	<style>
+        #contentmap {
+		    padding: 0;
+		    position : absolute !important;
+		    top : 40px !important;
+		    right : 0;
+		    bottom : 40px !important;
+		    left : 0 !important;
+		}
+	</style>
+  	
+  </head>
+  
+  <body>
+	<div id="getallmarker" data-role="page" class="main-page">
+		<div data-role="header" data-position="fixed" data-theme="d">
+		<a href="index.html" rel="external">Kembali</a><h1>Map</h1>
+		</div>
+		<div data-role="content">
+			<div id="contentmap">
+				<div id="map_canvas" style="height:100%"></div>
+ 			</div>
+ 		</div>
+		<div data-role="footer" data-position="fixed" data-theme="d">
+		<h1>&copy; Copyright 2017</h1>
+		</div>	
+	</div>
+
+ </body>
+</html>
